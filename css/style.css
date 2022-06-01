@@ -13,7 +13,7 @@
   list-style: none;
 }
 
-.body {
+body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
@@ -21,12 +21,17 @@
 
 .logo {
   color: var(--black-text-color);
+  font-weight: 700;
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
   text-decoration: none;
+}
+
+.header .span,
+.footer .span {
+  color: var(--accent-color);
 }
 
 .logo:hover {
@@ -97,6 +102,7 @@
 
 .section-subtitle {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -132,6 +138,7 @@
 
 .section-job {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -139,9 +146,12 @@
 
 /* Подвал */
 
+.footer {
+  background-color: var(--footer-header-background);
+}
+
 .addres-desc {
   color: var(--white-text-color);
-  background-color: var(--footer-header-background);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -150,10 +160,13 @@
 }
 
 .addres-list .link {
-  color: var(--white-text-color);
-  background-color: var(--footer-header-background);
-  text-decoration: none;
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .addres-list .link:hover {
@@ -162,10 +175,13 @@
 
 /* Кнопка */
 .button {
+  font-family: 'Roboto';
+  font-weight: 700;
   color: var(--white-text-color);
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .cursor {
@@ -175,12 +191,12 @@
 /* Портфолио */
 
 .button-portfolio {
+  font-family: 'Roboto';
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -203,7 +219,8 @@
 
 .products .name {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
